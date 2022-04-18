@@ -1,10 +1,12 @@
 # Systems-Programing-HW4
 
 #homework 4
+
 Write a C program to implement a simple job scheduler that executes non-interactive jobs (e.g., jobs that 
 do not have direct user interaction, jobs that can run in the background).  
 
 #description
+
 In this project we will implement a simple job scheduler that will execute non-
 interactive jobs (for example, jobs that do not have direct user interaction, jobs that can 
 run in the background).  
@@ -22,10 +24,12 @@ written to separate files - <jobid>.out and <jobid>.err, where <jobid> is the ap
 job id that is associated with a job.
 
 #getting started
-We are considered to take four jobs to run in a process and when another job we call it as fifth job is about to run, one of the job should complete its running inorder to run the fifth job one of the above should done its process and till then, this job should be in waiting process. In doing this process, we are using threads, fork and execvp along with command-line arguments. And in later we display the jobs with the status.
+
+ We are considered to take four jobs to run in a process and when another job we call it as fifth job is about to run, one of the job should complete its running inorder to run the fifth job one of the above should done its process and till then, this job should be in waiting process. In doing this process, we are using threads, fork and execvp along with command-line arguments. And in later we display the jobs with the status.
 
 # installing
-A step by step series of examples that tell you how to get a development environment running
+
+ A step by step series of examples that tell you how to get a development environment running
 1. open the text editor
 2. create a c programming file
 3. save the file with .c extension.
