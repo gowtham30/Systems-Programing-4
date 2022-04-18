@@ -36,6 +36,7 @@ job id that is associated with a job.
   
 # Running the tests
 
+ got the input with getline and tokenized the first argument wsubmit 
   
 In general a c program is executed in this way:
 1. To compile the file, type the command 'gcc filename.c'
@@ -45,3 +46,11 @@ To test our program, follow the below steps
 
 1. gcc homework3.c
 2. ./a.out 
+
+ 
+#output: gcc homework4.c```
+Enter command  submit sleep 40                                                                                                                                         Enter command  submit sleep 30                                                                                                                                          Enter command  submit 50                                                                                                                                                Enter command  submit sleep 50                                                                                                                                                         Enter command  showjobs                                                                                                                                                                                            0 sleep 40 Running                                                                                                                                                                                                 1 sleep 30 Running                                                                                                                                                                                                 2 50 Waiting                                                                                                                                                                                                       3 sleep 50 Waiting 
+ ```
+
+ 
+ 
