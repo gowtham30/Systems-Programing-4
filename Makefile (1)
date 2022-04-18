@@ -1,0 +1,8 @@
+hw4.o queue.o
+	gcc -o hw4 queue.o homework4.o -lpthread
+
+queue.o: queue.c
+	gcc -o queue.o -c queue.c
+
+homework4.o: homework4.c
+	gcc -o homework4.o -c homework4.c
